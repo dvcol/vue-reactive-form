@@ -46,8 +46,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {},
   "dependencies": {
+    "vue": "^3.2.39"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
@@ -65,7 +65,8 @@
     "peerDependencyRules": {
       "ignoreMissing": [
         "@babel/plugin-syntax-flow",
-        "@babel/plugin-transform-react-jsx"
+        "@babel/plugin-transform-react-jsx",
+        "eslint-plugin-vue"
       ]
     }
   }
